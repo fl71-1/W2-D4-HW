@@ -1,0 +1,180 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 6vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.lable-search{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+.lable-search img{
+    height: 1vh;
+    padding: 1em;
+    background-color: red;
+}
+
+.logo-img img{
+    height: 5vh;
+}
+.section1{
+    background-color: #114388 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title1{
+    font-size: 2em;
+    color: aliceblue;
+}
+.title2{
+    display: flex;
+    color: aliceblue;
+    gap: 2em;
+}
+.number{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.number1{
+    font-weight:bolder;
+    font-size: 2em;
+}
+.min{
+    display: flex;
+    
+    margin-top: 2em;
+}
+.min-content img{
+    width: 80vh;
+
+}
+.min-text{
+    font-size: large;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.color{
+    color: gray;
+}
+.min-mnue{
+    background-color: #F5F6EA;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.mnue1{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: em;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        width: 85%;
+    }
+
+
+    header{    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        height: 8vw;
+    }
+
+    .lable-search{
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+    }
+    .lable-search input{
+        border: none;
+        width: 12em;
+        padding-left: .5em;
+        font-size: x-large;
+    }
+    .lable-search img{
+        padding: 1em;
+        height: 3vh;
+        background-color: #D54215;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+    }
+  
+    .login img{
+        height: 3vw;
+        border-radius: 50%;
+    }
+
+
+    .section1{
+        background-color: #114388;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+
+        padding: 1em 1em 1em 1em;
+    }
+    .title1{
+        display: flex;
+        gap: 2em;
+        color: white;
+    }
+    .number{
+        display: flex;
+        align-items: center;
+        gap: .5em;
+    }
+    .min{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .mnue1{
+       
+        display: block;
+    }
+    
+
+}
